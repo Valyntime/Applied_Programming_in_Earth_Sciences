@@ -1,6 +1,15 @@
 import matplotlib.pyplot as plt
 import numpy as np
 # Відкриття файлу з вхідними даними
+print()
+print("################################")
+print("#                              #")
+print("#  Практична робота номер 2.   #")
+print("#      Осереднення з           #")
+print("# довільним вікном осереднення #")
+print("#                              #")
+print('################################')
+print()
 with open('input.txt', 'r') as f:
     data = [float(line.strip()) for line in f.readlines()]
 

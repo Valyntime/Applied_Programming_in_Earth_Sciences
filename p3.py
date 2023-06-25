@@ -9,6 +9,15 @@ import pandas as pd
 import webbrowser
 import os
 
+
+print()
+print("################################")
+print("#                              #")
+print("#  Практична робота номер 3.   #")
+print("#    Розрахунок гістограми     #")
+print("#                              #")
+print('################################')
+print()
 def read_data(filename):
     # Відкриття файлу на читання
     with open(filename, 'r') as f:
